@@ -45,4 +45,15 @@ let totalVentas = ventas.reduce(function(acumulado, venta){
 
 console.log("total: ", totalVentas);
 
+//Ejer 6
+ let grupos = [["Ana", "Luis"], ["Maria", "Juan"], ["Pedro"]];
+
+ let listaPlana = grupos.reduce(function(acumulado, grupo){
+  return acumulado.concat(grupo);
+ })
+console.log(grupos);
+console.log(listaPlana);
+
+
+
 
