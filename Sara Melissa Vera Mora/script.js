@@ -147,6 +147,20 @@ let nuevaFilaConJorge = [...fila.slice(0, 1), "Jorge", ...fila.slice(1)]
 console.log(fila1);
 console.log(nuevaFilaConJorge);
 
+//Ejer 17
+let tablero = ["X", "O", "X"];
+
+let tableroNuevo = [...tablero].map(function(usuarioTablero, indice){
+  if (indice === 1) {
+    return "X";       
+  } else {
+    return usuarioTablero;  
+  }
+});
+
+console.log(tablero);
+console.log(tableroNuevo); 
+
 
 
 
