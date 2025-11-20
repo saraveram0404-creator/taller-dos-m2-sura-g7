@@ -99,6 +99,18 @@ let tieneEditor = roles.includes("EDITOR");
 console.log("Tiene ADMIN?:", tieneAdmin);
 console.log("Tiene EDITOR?:", tieneEditor);
 
+//Ejer 12
+let usuarios1 = [{id: 101, nombre: "Ana"}, {id: 102, nombre: "Luis"}, {id: 103, nombre: "Carlos"}];
+
+let usuarioLuis = usuarios1.find(function(usuario){
+  if (usuario.id === 102) {
+    return true;
+  }
+});
+
+console.log("Lista completa:", usuarios1);
+console.log(usuarioLuis);
+
 
 
 
