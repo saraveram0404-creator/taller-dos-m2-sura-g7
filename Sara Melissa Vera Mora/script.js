@@ -54,6 +54,16 @@ console.log("total: ", totalVentas);
 console.log(grupos);
 console.log(listaPlana);
 
+//Ejer 7
+let original = ["A", "B", "C"];
+
+let clon = original.slice()
+
+clon.push("D")
+
+console.log(original);
+console.log(clon);
+
 
 
 
