@@ -78,6 +78,28 @@ let equipoCompleto = equipoDev.concat(equipoQA)
 
 console.log(equipoCompleto);
 
+//Ejer 10
+let carrito = ["Manzana"];
+
+
+let nuevoCarrito = carrito.slice()
+
+nuevoCarrito.push("Pera")
+
+console.log(carrito);
+console.log(nuevoCarrito);
+
+//Ejer 11
+let roles = ["USER", "EDITOR"];
+
+let tieneAdmin = roles.includes("ADMIN");
+
+let tieneEditor = roles.includes("EDITOR");
+
+console.log("Tiene ADMIN?:", tieneAdmin);
+console.log("Tiene EDITOR?:", tieneEditor);
+
+
 
 
 
