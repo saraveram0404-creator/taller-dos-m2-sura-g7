@@ -111,6 +111,16 @@ let usuarioLuis = usuarios1.find(function(usuario){
 console.log("Lista completa:", usuarios1);
 console.log(usuarioLuis);
 
+//Ejer 13
+let invitados = ["Zapata", "Alvarez", "Gomez", "Bernal"];
+
+let invitadosOrdenados = [...invitados].sort()
+
+console.log(invitados);
+console.log(invitadosOrdenados);
+
+
+
 
 
 
