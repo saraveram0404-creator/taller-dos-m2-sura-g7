@@ -182,6 +182,25 @@ let nuevoFeed = ["Noticia Urgente"].concat(feed);
 
 console.log(nuevoFeed);
 
+//Ejer 20
+let puntuaciones = [50, 85, -10, 100, 0, 30];
+
+let validas = puntuaciones.filter(function(puntos){
+  return puntos >= 0;
+});
+
+let bonificadas = validas.map(function(puntos){
+  return puntos + 10;
+});
+
+let totalPuntos = bonificadas.reduce(function(acumulado, puntos){
+  return acumulado + puntos;
+}, 0);
+
+console.log("Puntuaciones válidas:", validas);
+console.log("Bonificadas:", bonificadas);
+console.log("Total de puntos:", totalPuntos);
+
 
 
 
