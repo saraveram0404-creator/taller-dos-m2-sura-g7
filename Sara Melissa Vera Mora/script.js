@@ -139,6 +139,15 @@ let nuevaFila = [...fila].filter(function(nombreFila){
 console.log(fila);
 console.log(nuevaFila);
 
+//Ejer 16
+let fila1 = ["Ana", "Luis", "Carlos", "Maria"];
+
+let nuevaFilaConJorge = [...fila.slice(0, 1), "Jorge", ...fila.slice(1)]
+
+console.log(fila1);
+console.log(nuevaFilaConJorge);
+
+
 
 
 
