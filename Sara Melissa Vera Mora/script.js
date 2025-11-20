@@ -16,3 +16,13 @@ let nombres = usuarios.map(function(usuario) {
 });
 
 console.log(nombres);
+
+
+//Ejer 3
+let notas = [8, 5, 10, 3, 7];
+
+let aprobadas = notas.filter(function(nota) {
+  return nota >= 6;
+});
+
+console.log(aprobadas);
