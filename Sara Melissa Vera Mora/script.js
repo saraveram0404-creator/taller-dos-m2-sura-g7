@@ -127,6 +127,18 @@ let recetaInversa = [...receta].reverse()
 console.log(receta);
 console.log(recetaInversa);
 
+//Ejer 15
+let fila = ["Ana", "Luis", "Carlos", "Maria"];
+
+let eliminar = "Luis"
+
+let nuevaFila = [...fila].filter(function(nombreFila){
+  return nombreFila !== eliminar
+})
+
+console.log(fila);
+console.log(nuevaFila);
+
 
 
 
