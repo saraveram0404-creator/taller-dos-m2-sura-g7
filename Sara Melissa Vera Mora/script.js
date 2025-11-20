@@ -175,6 +175,15 @@ let productosCaros = filtrados.map(function(p){
 console.log(productosCaros);
 
 
+//Ejer 19 
+let feed = ["Noticia 1", "Noticia 2", "Noticia 3"];
+
+let nuevoFeed = ["Noticia Urgente"].concat(feed);
+
+console.log(nuevoFeed);
+
+
+
 
 
 
