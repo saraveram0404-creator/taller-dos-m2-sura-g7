@@ -161,6 +161,21 @@ let tableroNuevo = [...tablero].map(function(usuarioTablero, indice){
 console.log(tablero);
 console.log(tableroNuevo); 
 
+//Ejer 18
+let productos1 = [{ nombre: "Papas", precio: 2 },{ nombre: "Carne", precio: 15 },{ nombre: "Leche", precio: 3 }];
+
+let filtrados = productos1.filter(function(item){
+  return item.precio > 4;
+});
+
+let productosCaros = filtrados.map(function(p){
+  return p.nombre;
+});
+
+console.log(productosCaros);
+
+
+
 
 
 
