@@ -36,4 +36,13 @@ let enStock = productos.filter(function(producto){
 
 console.log(enStock);
 
+//Ejer 5 
+let ventas = [150, 300, 100, 50];
+
+let totalVentas = ventas.reduce(function(acumulado, venta){
+    return acumulado + venta;
+})
+
+console.log("total: ", totalVentas);
+
 
