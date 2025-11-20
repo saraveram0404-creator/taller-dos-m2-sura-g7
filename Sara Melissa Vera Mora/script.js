@@ -7,3 +7,12 @@ let puntosDoble = puntos.map(function(numero){
 
 console.log(puntos);
 console.log(puntosDoble);
+
+//Ejer 2
+let usuarios = [{id: 1, nombre: "Ana"}, {id: 2, nombre: "Luis"}, {id: 3, nombre: "Carlos"}];
+
+let nombres = usuarios.map(function(usuario) {
+  return usuario.nombre;
+});
+
+console.log(nombres);
