@@ -64,6 +64,14 @@ clon.push("D")
 console.log(original);
 console.log(clon);
 
+//Ejer 8
+let competidores = ["Oro", "Plata", "Bronce", "Mención 1", "Mención 2"];
+
+let podio = competidores.slice(0, 3)
+
+console.log(podio);
+
+
 
 
 
